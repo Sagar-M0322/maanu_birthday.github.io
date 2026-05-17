@@ -574,8 +574,8 @@ function tick(){
   setTimeout(tick,1000);
 }
 // Demo: 5 days ahead
-const demo=new Date();demo.setDate(demo.getDate()+5);demo.setHours(10,0,0,0);
-bDay=demo;tick();
+bDay = new Date('2026-05-19T10:00:00');
+tick();
 
 /* CELEBRATION */
 function startCel(){
